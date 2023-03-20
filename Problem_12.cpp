@@ -37,6 +37,13 @@ char *intToRoman(int num)
             i++;
             num = num - 900;
         }
+
+        else if (num >= 500)
+        {
+            roman[i] = 'D';
+            i++;
+            num = num - 500;
+        }
         else if (num >= 400)
         {
             roman[i] = 'C';
@@ -44,13 +51,6 @@ char *intToRoman(int num)
             roman[i] = 'D';
             i++;
             num = num - 400;
-        }
-
-        else if (num >= 500)
-        {
-            roman[i] = 'D';
-            i++;
-            num = num - 500;
         }
         else if (num >= 100)
         {

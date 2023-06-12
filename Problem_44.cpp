@@ -28,7 +28,7 @@ public:
         for (i = 0, j = 0; i < s_size; ++i, ++j)
         {
             // if(s[i] == p[i])
-            // {
+            // { 
             //     continue;
             // }
             // else if(p[i] == '?' && s[i] != p[i])
